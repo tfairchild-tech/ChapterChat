@@ -1,0 +1,52 @@
+/* CSS used here will be applied after bootstrap.css */
+.book {
+    padding: 15px 0 0 0;
+    vertical-align: bottom !important;
+    horizontal-align: bottom !important;
+    margin:auto;
+}
+
+
+.book-img>.book-link:before {
+    content: '';
+    display: block;
+    width: 80%;
+    height: 1em;
+    background: rgba(0,0,0,.85);
+    border-radius: 50%;
+    position: absolute;
+    top:-10px;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    z-index:-5;
+}
+.shelf {
+    border-bottom: 30px solid #a5a5a5;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    bottom: -15px;
+    z-index: -10;
+}
+.shelf:after {
+    content: '';
+    background: #333333;
+    height: 20px;
+    width: calc(100% + 40px);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0 -20px;
+}
+
+.chapter_chat_bookshelf_jumbotron {
+    background-image: url("../assets/wooden_bookshelf_1.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background: contain;
+    width: 100%;
+    max-width:1024px;
+    padding: 50px 150px !important;
+    z-index: -30;
+}

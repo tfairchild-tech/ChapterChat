@@ -1,0 +1,27 @@
+.homeTab>a:active, .nav-tabs>li.homeTab>a:active, .nav-tabs>li.homeTab.active>a:hover, .nav-tabs>li.homeTab.active>a:focus {
+    background-color: #0396d7 !important;
+}
+
+.nav-tabs>li.adminTab>a:active, .nav-tabs>li.adminTab>a:hover, .nav-tabs>li.adminTab>a:focus {
+    background-color: #85CA4D;
+}
+
+.nav-tabs > li:nth-child(2) > a:active, .nav-tabs > li:nth-child(2) > a:hover, .nav-tabs > li:nth-child(2) > a:focus {
+    background-color: #fc6;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu {
+    background-color: #fc6;
+}
+.nav-tabs > ul > .dropdown-menu > li > a {
+    background-color:  #fc6;
+}
+
+.nav-tabs > ul > .dropdown-menu > li > .dropdown-menu > li > a:hover,
+.nav-tabs > ul > .dropdown-menu > li > .dropdown-menu > li > a:focus {
+    background-color: #fc6;
+}
+
+
+
+

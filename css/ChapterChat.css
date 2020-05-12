@@ -1,0 +1,347 @@
+.chapterchat-font-hdr {
+		font-family: 'Baloo Bhaina', sans-serif;
+		font-size: medium;
+}
+
+.chapterchat-font-top  {
+		font-family: 'Baloo Bhaina', sans-serif;
+		color: #FF8E00 !important;
+		font-size: medium;
+}
+
+.chapterchat-font-footer  {
+    font-family: 'Baloo Bhaina', sans-serif;
+    color: #1565C0 !important;
+    font-size: x-small;
+}
+.chapterchat-font-top-welcome  {
+	font-family: 'Baloo Bhaina', sans-serif;
+	color: #A70E26 !important;
+	font-size: large;
+}
+
+.chapterchat-font-top-welcome:hover  {
+	font-family: 'Baloo Bhaina', sans-serif;
+	color: #A70E26 !important;
+	/* font-size: x-large !important; */
+}
+
+.chapterchat-font-top:hover  {
+		font-family: 'Baloo Bhaina', sans-serif;
+		color: #1565C0 !important;
+		/* font-size: large !important; */
+}
+
+.chapterchat-font {
+		font-family: 'Baloo Bhaina', sans-serif;
+		font-size: medium;
+}
+
+.chapterchat-font-plain {
+    font-family: 'Baloo Bhaina', sans-serif;
+    font-size: medium;
+}
+
+.chapterchat-font-plain-lg {
+    font-family: 'Baloo Bhaina', sans-serif;
+    font-size: large !important;
+}
+
+.chapterchat-font:hover {
+		font-family: 'Baloo Bhaina', sans-serif;
+		color: #2E7B32 !important;
+		/*font-size: x-large !important;*/
+}
+
+.chapterchat-font-sm {
+    font-family: 'Baloo Bhaina', sans-serif;
+    color: #2E7B32 !important;
+    font-size: small !important;
+}
+
+.chapterchat-tab-font-md {
+	font-family: 'Baloo Bhaina', sans-serif;
+	font-size: medium !important;
+}
+
+.chapterchat-font-md {
+    font-family: 'Baloo Bhaina', sans-serif;
+    color: #2E7B32 !important;
+    font-size: medium !important;
+}
+
+.chapterchat-font-md:hover {
+    font-family: 'Baloo Bhaina', sans-serif;
+    color: #A70E26 !important;
+    /*font-size: large !important;*/
+}
+
+.chapterchat-question {
+	padding: 10px 40px;
+	background: #F0F8FF;
+	width: 600px;
+	border-radius: 50px;
+	border: 3px solid #1565C0;
+}
+.chapterchat-question-passed {
+	padding: 10px 40px;
+	background: #F0F8FF;
+	width: 600px;
+	border-radius: 50px;
+	border: 3px dashed #abbe27;
+}
+.chapterchat-question-failed {
+	padding: 10px 40px;
+	background: #F0F8FF;
+	width: 600px;
+	border-radius: 50px;
+	border: 3px dashed #cb4729;
+}
+.go {
+	border: solid 1px #c8f3c2;
+	background-color: #c8f3c2;
+	color: #000;	
+}
+
+.navbar-nav > li > a {
+	padding-left:10px !important;
+	padding-right:0px !important;
+	padding-top:75px !important;
+	padding-bottom:0 !important;
+	height: 70px;
+}
+.navbar .navbar-brand {min-height:110px !important; }
+
+.navbar-nav > li > a:focus {
+	background-color: transparent;
+}
+
+.footer {
+    padding-top: 5px;
+    position: fixed;
+    height: 40px;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255,255,255, .90) !important;
+}
+
+.panel {
+  margin: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+	width:30%;
+	float:left;		  
+}
+
+.panel-footer {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 0px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.panel-primary{
+  border-color: #337ab7;
+}
+.panel-primary-heading {
+	padding: 10px 15px;
+	border-bottom: 1px solid transparent;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	font-size: 1.4em;
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #337ab7;
+}
+
+.panel-success {
+  border-color: #d6e9c6;
+}
+.panel-success-heading {
+	padding: 10px 15px;
+	border-bottom: 1px solid transparent;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	font-size: 1.4em;
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+}
+
+.panel-info {
+  border-color: #bce8f1;
+}
+.panel-info-heading {
+	padding: 10px 15px;
+	border-bottom: 1px solid transparent;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	font-size: 1.4em;
+	color: #31708f;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+}
+
+.panel-warning {
+  border-color: #faebcc;
+}
+.panel-warning-heading {
+  	padding: 10px 15px;
+	border-bottom: 1px solid transparent;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	font-size: 1.4em;
+	color: #8a6d3b;
+	background-color: #fcf8e3;
+	border-color: #faebcc;
+}
+
+.list-group {
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.list-group-item{
+  border-width: 1px 0;
+  border-radius: 0;
+}
+.list-group-item-first-child{
+  border-top: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.list-group-item-last-child{
+  border-bottom: 0;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+body {
+    min-height: 2000px;
+    padding-top: 170px;
+	/* background: url(../assets/shutterstock_475561780.jpg) no-repeat center center fixed; */
+	background: url(../assets/cc_background.png) no-repeat center center fixed;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    z-index: -99;
+}
+
+.chapter_chat_jumbotron {
+    background-color: rgba(213, 242, 240, .90) !important;
+	padding: 50px 170px !important;
+	border-width: 2px;
+	border-style: solid;
+    border-color: #31708f;
+    color: inherit;
+}
+
+.chapter_chat_jumbotron_tight {
+    background-color: rgba(213, 242, 240, .90) !important;
+	padding: 50px 120px !important;
+	border-width: 2px;
+	border-style: solid;
+    border-color: #31708f;
+    color: inherit;
+}
+.chapter_chat_jumbotron_test {
+    background-color: rgba(213, 242, 240, .90) !important;
+	border-width: 2px;
+	border-style: solid;
+    border-color: #31708f;
+    color: inherit;
+}
+
+.chapter_chat_student_jumbotron {
+    background-color: rgba(213, 242, 240, .90) !important;
+    padding: 50px 170px !important;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #31708f;
+    color: inherit;
+}
+
+.chapter_chat_teacher_jumbotron {
+    background-color: rgba(255, 255, 255, .90) !important;
+    padding: 50px 100px !important;
+	/* height: 775px; not specifying makes it automatic for each tab */
+    border-width: 2px;
+    border-style: solid;
+    border-color: #85CA4D;
+    color: inherit;
+}
+
+.chapter_chat_about_jumbotron {
+	background-color: rgba(255, 255, 255, .90) !important;
+	padding: 50px 170px !important;
+	min-width: 500px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #dff0d8;
+	color: inherit;
+}
+
+
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover  {
+    background-color: #85CA4D;
+}
+
+p.alt_warning,
+p.warning,
+p.attention,
+p.notice,
+div.alt_warning,
+div.warning,
+div.attention,
+div.notice,
+div.goodjob{
+	padding: 0.7em;
+	margin: 1em 0;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.warning {
+	color: #af0000;
+	padding: 2px;
+}
+.goodjob {
+	color: green;
+	padding: 2px;
+}
+.alt_warning {
+	border: solid 1px #000;
+	background-color: #ff8;
+	color: #000;	
+}
+.attention {
+	border: solid 1px #aa8;
+	background-color: #ff8;
+	color: #7f0f0f;
+}
+.notice {
+   border: solid 1px #aa8;
+   background-color: #fc6;
+   color: #7f0f0f;
+}
+h3.underline{
+	margin: 0;
+	padding: 0;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #0396d7;
+	border-color: #ff7000;
+	background: none !important;
+}
